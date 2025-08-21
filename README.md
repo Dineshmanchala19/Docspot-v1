@@ -56,13 +56,13 @@ Built with **React (SPA frontend)**, **Node.js + Express (REST API backend)**, a
 git clone https://github.com/Dineshmanchala19/Docspot-v1.git
 cd Docspot-v1
 2. Install Dependencies
+bash
 Frontend (React):
-
-
 cd frontend
 npm install
 Backend (Node.js / Express):
 
+bash
 cd backend
 npm install
 3. Configure MongoDB
