@@ -49,8 +49,6 @@ Built with **React (SPA frontend)**, **Node.js + Express (REST API backend)**, a
 ### Doctor Approval Workflow  
 ![Doctor Approval](https://raw.githubusercontent.com/Dineshmanchala19/Docspot-v1/main/screenshots/appt.png)
 
----
-
 ## 🛠 Installation & Setup
 
 ### 1. Clone the Repository
@@ -60,16 +58,11 @@ cd Docspot-v1
 2. Install Dependencies
 Frontend (React):
 
-bash
-Copy
-Edit
+
 cd frontend
 npm install
 Backend (Node.js / Express):
 
-bash
-Copy
-Edit
 cd backend
 npm install
 3. Configure MongoDB
@@ -77,32 +70,23 @@ Install MongoDB locally or create a cluster using MongoDB Atlas.
 
 Update your MongoDB connection string inside:
 
-arduino
-Copy
-Edit
+
+
 backend/config/connectToDB.js
 4. Environment Variables
-Create a .env file inside backend:
+Create a .env file inside the backend directory:
 
-ini
-Copy
-Edit
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 5. Run the Application
 Start backend server:
 
-bash
-Copy
-Edit
 cd backend
 npm start
 Start frontend app:
 
-bash
-Copy
-Edit
+
 cd frontend
 npm start
 🎮 Usage Guide
@@ -117,33 +101,4 @@ Doctor: Apply for verification and manage consultations
 Admin: Manage users, approve doctors, and view analytics
 
 Use the Admin Panel for real-time oversight and approvals.
-
-💻 Tech Stack
-Frontend: React, React Router, Tailwind CSS
-
-Backend: Node.js, Express (REST API architecture)
-
-Database: MongoDB (Mongoose ODM for schema management)
-
-Authentication: JSON Web Tokens (JWT) with role-based authorization
-
-State Management: React hooks and context API
-
-Security: Encrypted passwords (bcrypt), secure API routes, CORS protection
-
-Deployment Ready: Environment-configurable builds
-
-🤝 Contributing
-Contributions are highly appreciated!
-
-Fork this repository
-
-Create a feature branch (feature/your-feature-name)
-
-Commit your changes with clear messages
-
-Push to your branch and open a Pull Request
-
-📜 License
-This project is licensed under the MIT License – see LICENSE for details.
 
