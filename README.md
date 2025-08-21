@@ -26,7 +26,7 @@ Built with **React (SPA frontend)**, **Node.js + Express (REST API backend)**, a
 ## 📸 Screenshots
 
 ### Home Page  
-![Home Page](https://raw.githubusercontent.com/Dineshmanchala19/Docspot-v1/main/screenshots/user-dashboard.png)
+![Home Page](https://raw.githubusercontent.com/Dineshmanchala19/Docspot-v1/main/screenshots/home.png)
 
 ### User Dashboard  
 ![User Dashboard](https://raw.githubusercontent.com/Dineshmanchala19/Docspot-v1/main/screenshots/user-dashboard.png)
