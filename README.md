@@ -56,39 +56,39 @@ Built with **React (SPA frontend)**, **Node.js + Express (REST API backend)**, a
 git clone https://github.com/Dineshmanchala19/Docspot-v1.git
 cd Docspot-v1
 2. Install Dependencies
-bash
+```
+```bash
 Frontend (React):
 cd frontend
 npm install
 Backend (Node.js / Express):
-
-bash
+```
+```bash
 cd backend
 npm install
 3. Configure MongoDB
 Install MongoDB locally or create a cluster using MongoDB Atlas.
-
 Update your MongoDB connection string inside:
-
-
-
 backend/config/connectToDB.js
+```
+```bash
 4. Environment Variables
 Create a .env file inside the backend directory:
-
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-5. Run the Application
-Start backend server:
+```
 
+```bash
+6. Run the Application
+Start backend server:
 cd backend
 npm start
 Start frontend app:
-
-
 cd frontend
 npm start
+```
+```bash
 🎮 Usage Guide
 Open http://localhost:3000 in your browser.
 
@@ -101,4 +101,9 @@ Doctor: Apply for verification and manage consultations
 Admin: Manage users, approve doctors, and view analytics
 
 Use the Admin Panel for real-time oversight and approvals.
+```
+```bash
+📜 License
 
+This project is licensed under the MIT License
+```
