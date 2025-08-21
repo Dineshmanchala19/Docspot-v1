@@ -1,82 +1,47 @@
-DocSpot - Healthcare Management System 🎉🏥
-Welcome to DocSpot, a comprehensive healthcare management system built to streamline doctor appointments, user management, and administrative tasks. This project is developed using React for the frontend, Node.js with Express for the backend, and MongoDB for the database. 🚀
-Overview 📋
-DocSpot provides a user-friendly interface for patients to book appointments, admins to manage users and doctors, and a platform for doctors to apply and get approved. The system includes features like:
+# DocSpot - Healthcare Management System 🎉🏥
 
-Find Doctors 🌟: Browse and book appointments with qualified healthcare professionals.
-My Appointments 📅: View and manage scheduled appointments.
-Apply as Doctor 👩‍⚕️: Submit applications to join the medical community.
-Admin Control 🔧: Manage users, doctors, and approvals with advanced analytics.
+[![React](https://img.shields.io/badge/Frontend-React-blue)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Backend-Node.js-green)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Framework-Express-lightgrey)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen)](https://www.mongodb.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-Screenshots 📸
-User Dashboard 🖥️
-Overview of the health dashboard with options to find doctors, view appointments, and apply as a doctor. 😊
-![Website Home](assets/webiste.png)
-My Appointments ⏰
-Interface to book new appointments and track existing ones. ✅
+Welcome to **DocSpot**, a comprehensive healthcare management system designed to streamline doctor appointments, user management, and administrative tasks.  
+Built with **React (frontend)**, **Node.js + Express (backend)**, and **MongoDB (database)**. 🚀
 
-Find a Doctor 🔍
-Explore a network of doctors with details like specialization and fees. 👨‍⚕️
-Show Image
-Apply as Doctor 📝
-Form for doctors to submit their application details. ✍️
-Show Image
-Admin Dashboard 👨‍💼
-Manage total users, doctors, and appointments with control options. ⚙️
-Show Image
-Doctor Approval Dashboard ✔️
-Review and approve/reject doctor registration applications. ✅❌
-Show Image
-Manage Users 👥
-Admin interface to oversee user roles and details. 🔐
-Show Image
-Welcome Page 🌐
-Landing page with login/register options and top doctor highlights. 🎉
-Show Image
-Installation 🛠️
-Clone the Repository 📥
-bashgit clone https://github.com/your-username/docspot.git
-cd docspot
-Install Dependencies 📦
-For the frontend (React):
-bashcd frontend
-npm install
-For the backend (Node.js):
-bashcd backend
-npm install
-Set Up MongoDB 🗄️
+---
 
-Install MongoDB locally or use a cloud service like MongoDB Atlas.
-Update the connection string in server/config/db.js.
+## 📋 Features
 
-Environment Variables 🌱
-Create a .env file in the server directory and add:
-envPORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-Run the Application ▶️
-Start the backend:
-bashcd server
-npm start
-Start the frontend:
-bashcd client
-npm start
-Usage 🎮
+- **Find Doctors 🌟** – Browse and book appointments with qualified healthcare professionals.  
+- **My Appointments 📅** – View and manage scheduled appointments.  
+- **Apply as Doctor 👩‍⚕️** – Submit applications to join the medical community.  
+- **Admin Control 🔧** – Manage users, doctors, and approvals with analytics.  
 
-Access the application at http://localhost:3000.
-Log in as an admin, user, or doctor to explore respective dashboards. 🔑
-Use the admin panel to manage the system and approve doctor applications. 🛡️
+---
 
-Technologies Used 💻
+## 📸 Screenshots
 
-Frontend: React, Tailwind CSS 🌈
-Backend: Node.js, Express ⚡
-Database: MongoDB 🗃️
-Authentication: JWT 🔒
+### User Dashboard
+![User Dashboard](https://raw.githubusercontent.com/Dineshmanchala19/Docspot-v1/main/screenshots/user-dashboard.png)
 
-Contributing 🤝
-Feel free to fork this repository, submit issues, or create pull requests. Contributions are welcome! 🌟
-License 📜
-This project is licensed under the MIT License - see the LICENSE.md file for details. ⚖️
-Contact 📧
-For any questions or support, please open an issue or reach out via email. 😄
+### My Appointments
+![My Appointments](https://raw.githubusercontent.com/Dineshmanchala19/Docspot-v1/main/screenshots/my-appointments.png)
+
+### Find a Doctor
+![Find a Doctor](https://raw.githubusercontent.com/Dineshmanchala19/Docspot-v1/main/screenshots/find-doctor.png)
+
+### Apply as Doctor
+![Apply as Doctor](https://raw.githubusercontent.com/Dineshmanchala19/Docspot-v1/main/screenshots/apply-doctor.png)
+
+### Admin Dashboard
+![Admin Dashboard](https://raw.githubusercontent.com/Dineshmanchala19/Docspot-v1/main/screenshots/admin-dashboard.png)
+
+---
+
+## 🛠 Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Dineshmanchala19/Docspot-v1.git
+cd Docspot-v1
